@@ -24,6 +24,6 @@ I followed these steps with example code pieces:
 **TODO:** For the future I plan on creating a better webapp where user will be writing the city name and the application will show the results to the user dynamically.
 
 
-## 02 Type Conversion Examples
+## 02 Data Types In Go
 
 **@wip**
