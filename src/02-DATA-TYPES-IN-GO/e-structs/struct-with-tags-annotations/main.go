@@ -14,7 +14,6 @@ import (
 	"github.com/isacikgoz/defaults" //go get...
 )
 
-// User holds basic user information.
 type User struct {
 	Name     string `validate:"notempty"`
 	Email    string `validate:"email"`

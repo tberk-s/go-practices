@@ -5,9 +5,11 @@ import "fmt"
 /*
 	--------------------------------------------------------------
 
-	We can use `new` function to initialize and preallocate the struct in the memory
+	In this example we don't actually change the value of the num
 
-	new function returns the memory address.
+	The updated version lives only inside of the function.
+
+	We need to send the memory address of num... (In second example)
 
 	--------------------------------------------------------------
 */
