@@ -24,5 +24,13 @@ func main() {
 	p2 := person.Person{FirstName: "Ahmet", LastName: "Mehmet"}
 
 	p2.SetSecret("Another secret password")
+
+	// We defined FullName method in "person" package
 	fmt.Println(p2.FullName("p2"))
+
+	// Go through persons
+	people := []person.Person{p1, p2}
+	for _, p := range people {
+		fmt.Println(p)
+	}
 }
